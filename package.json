@@ -4,7 +4,8 @@
   "description": "Question & Answer Component for Nozama, An amazon clone app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack-dev-server --watch --mode development"
   },
   "repository": {
     "type": "git",
@@ -22,12 +23,19 @@
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "redux": "^4.0.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
     "chai": "^4.2.0",
     "mocha": "^7.1.0",
     "nodemon": "^2.0.2",
-    "webpack": "^4.41.6"
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
