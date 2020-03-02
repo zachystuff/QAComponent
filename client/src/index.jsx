@@ -2,6 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles.css';
 
-import App from './components/CustomerReviews';
+import ReviewModule from './components/ReviewModule';
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<ReviewModule />, document.getElementById('app'));

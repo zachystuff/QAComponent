@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "react-dev": "webpack --watch --mode development",
-    "FE-server": "webpack-dev-server",
+    "react-server": "webpack-dev-server",
     "server-dev": "nodemon ./server/index.js"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-redux": "^7.2.0",
+    "react-star-rating-component": "^1.4.1",
     "redux": "^4.0.5",
     "style-loader": "^1.1.3"
   },

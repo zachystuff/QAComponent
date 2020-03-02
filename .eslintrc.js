@@ -3,5 +3,9 @@ module.exports = {
     "env": {
         browser: true
     },
-    "parser": "babel-eslint"
+    "parser": "babel-eslint", 
+    "rules": {
+        "linebreak-style":0,
+        "global-require":0,
+    }
 }
