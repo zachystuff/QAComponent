@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 
 const ReviewComments = ({ texts }) => {
   const [toggle, setToggle] = useState(false);
+  const [counter, add1] = useState(0);
   return (
     <div className="ReviewComments rating-text">
       <form>
@@ -53,9 +54,13 @@ const ReviewComments = ({ texts }) => {
           <span>
             {`${text.text}`}
           </span>
-          <p>173 people found this helpful</p>
+          <p>
+            {`${173 + counter}`}
+            {' '}
+            people found this helpful
+          </p>
           <div>
-            <button type="button" className="helpful">Helpful</button>
+            <button type="button" className="helpful" onClick={() => add1(counter + 1)}>Helpful</button>
             <i className="icon-text-seperator" />
             <span>Comment</span>
             <i className="icon-text-seperator" />
