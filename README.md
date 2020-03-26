@@ -16,11 +16,12 @@ The Question and answer module is design to render an average product rating rat
 To get this project started, you need to have the following software installed
 
 1.) [Node LTS 12.16.1](https://nodejs.org/en/download/)
+
 2.) [MySQL](https://www.mysql.com/downloads/)
 
 ### Installing
 
-This is how you  ban get a development env running
+This is how you can get a development environment running
 
 1.) Install NPM packages:
 
