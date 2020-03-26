@@ -79,10 +79,3 @@ npm run react-dev
 ## Authors
 
 * **Zach Yusuf** - *Initial work* - [Nozama](https://github.com/Nozama)
-
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
