@@ -11,7 +11,7 @@ const ImageCarousel = ({ customerImagesST }) => {
     <div className={styles.ImageCarousel}>
       <h3>Customer images</h3>
       <div className={styles.imageContainer}>
-        {customerImagesST.slice(0, toggle ? 12 : 4).map((image) => (
+        {customerImagesST.slice(0, toggle ? customerImagesST.length : 3).map((image) => (
           <img
             src={`${image.src}`}
             alt={`${image.alt}`}

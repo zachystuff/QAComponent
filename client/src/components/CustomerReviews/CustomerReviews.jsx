@@ -17,6 +17,7 @@ const CustomerReviews = ({ customerReviewsST, byFeatureST }) => {
         <StarRatingComponent
           name="rate1"
           value={numberOfStars}
+          emptyStarColor="#FFE7CF"
           editing={false}
         />
         <span className={styles.ratingLetterSpace} />

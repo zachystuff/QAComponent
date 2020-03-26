@@ -1,62 +1,32 @@
 module.exports = {
   images: [
     {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
+      src: 'https://cdn.shopify.com/s/files/1/1099/1898/products/PS_-Shopping-Cart-FCBlack.png?v=1579910436',
+      alt: 'BlenderBottle Classic Loop Top Shaker Bottle',
       key: 1,
     },
     {
-      src: 'https://www.mercurynews.com/wp-content/uploads/2019/10/AFP_1LN9WH.jpg',
-      alt: 'image2',
+      src: 'https://m.media-amazon.com/images/S/aplus-media/vc/369e0d60-1714-4ef1-a4ce-0d8b93eca7f9.__CR625,0,1250,2500_PT0_SX150_V1___.jpg',
+      alt: 'BlenderBottle Pro Series Shaker Bottle',
       key: 2,
     }, {
-      src: 'https://techcrunch.com/wp-content/uploads/2016/10/scenic_mountain_1.png?w=730&crop=1',
-      alt: 'image3',
+      src: 'https://m.media-amazon.com/images/S/aplus-media/vc/06963dc5-aeaa-4d4c-a327-48da5af14b47.__CR625,0,1250,2500_PT0_SX150_V1___.jpg',
+      alt: 'BlenderBottle Radian Insulated Stainless Steel Shaker Bottle',
       key: 3,
     }, {
-      src: 'https://www.albawaba.com/sites/default/files/styles/de2e_standard/public/2020-02/tesla-enviroment.jpg?h=790be497&itok=RKE19MUI',
-      alt: 'image4',
+      src: 'https://m.media-amazon.com/images/S/aplus-media/vc/06963dc5-aeaa-4d4c-a327-48da5af14b47.__CR625,0,1250,2500_PT0_SX150_V1___.jpg',
+      alt: 'BlenderBottle Mantra Glass Shaker Bottle',
       key: 4,
     },
     {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
+      src: 'https://m.media-amazon.com/images/S/aplus-media/vc/caae9bd6-5295-4451-9396-de44d52f08da.__CR716,0,1250,2500_PT0_SX150_V1___.jpg',
+      alt: 'BlenderBottle SportMixer Twist Cap Tritan Grip Shaker Bottle',
       key: 5,
     },
     {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
+      src: 'https://m.media-amazon.com/images/S/aplus-media/vc/c51ba21a-23e8-455e-abbc-983a85236daf.__CR71,0,314,628_PT0_SX150_V1___.png',
+      alt: 'BlenderBottle ProStak System with 22-Ounce Bottle and Twist n Lock Storage',
       key: 6,
-    },
-    {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
-      key: 7,
-    },
-    {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
-      key: 8,
-    },
-    {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
-      key: 9,
-    },
-    {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
-      key: 10,
-    },
-    {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
-      key: 11,
-    },
-    {
-      src: 'https://www.tesla.com/sites/tesla/files/carousel/image/charger-2%402.jpg',
-      alt: 'image1',
-      key: 12,
     },
   ],
 };

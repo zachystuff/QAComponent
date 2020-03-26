@@ -9,10 +9,8 @@
         "addReview middle-container"
         ". middle-container"
     ;
-    border-color: black;
     grid-gap: 2px;
-    border-style: dotted;
-    padding: 18px;
+    padding: 2em;
     font-family: Arial,
         sans-serif;
 }

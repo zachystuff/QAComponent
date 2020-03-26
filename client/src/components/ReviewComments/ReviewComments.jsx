@@ -29,6 +29,7 @@ const ReviewComments = ({ texts }) => {
           <div>
             <StarRatingComponent
               className="starComponent"
+              emptyStarColor="#FFE7CF"
               name="valueForMoney"
               value={text.rating}
               editing={false}
@@ -61,7 +62,7 @@ const ReviewComments = ({ texts }) => {
             {`${text.text}`}
           </span>
           <p>
-            {`${173 + counter}`}
+            {`${text.helpful + counter}`}
             {' '}
             people found this helpful
           </p>

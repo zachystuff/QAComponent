@@ -15,6 +15,7 @@ const ByFeature = ({ byFeatureST }) => {
         <StarRatingComponent
           className={styles.starComponent}
           name="valueForMoney"
+          emptyStarColor="#FFE7CF"
           value={val1}
           editing={false}
         />
@@ -25,6 +26,7 @@ const ByFeature = ({ byFeatureST }) => {
         <StarRatingComponent
           className={styles.starComponent}
           name="durability"
+          emptyStarColor="#FFE7CF"
           value={val2}
           editing={false}
         />
@@ -36,6 +38,7 @@ const ByFeature = ({ byFeatureST }) => {
         <StarRatingComponent
           className={styles.starComponent}
           name="materialQuality"
+          emptyStarColor="#FFE7CF"
           value={val3}
           editing={false}
         />
